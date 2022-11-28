@@ -33,5 +33,10 @@ createApp({
             ]
 
         }
+    },
+    methods: {
+        nextImg() {
+            this.activeImage++;
+        }
     }
 }).mount('#app')
