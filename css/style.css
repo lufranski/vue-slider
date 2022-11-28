@@ -30,6 +30,7 @@
     bottom: 20px;
     text-align: right;
     color: white;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .thumbs {
@@ -72,6 +73,7 @@
 .next {
     bottom: 0;
 }
+
 
 /*
 EXTRA: in questo esempio gli accordion vengono creati
