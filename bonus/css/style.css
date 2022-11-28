@@ -44,6 +44,7 @@
     height: calc((300px) / 5);
     opacity: 0.5;
     width: 200px;
+    cursor: pointer;
 }
 
 .thumb img {

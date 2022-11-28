@@ -54,6 +54,11 @@ createApp({
                 this.activeImage = this.slides.length - 1;
 
             }
+        },
+        thumbClick(index){
+            
+            this.activeImage = index;
+
         }
     }
 }).mount('#app')
