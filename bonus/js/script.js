@@ -62,8 +62,12 @@ createApp({
         },
         activeChange(){
 
-            setInterval(this.nextImg(), 3000);
+            setInterval(this.nextImg, 3000);
 
         }
+    },
+    mounted(){
+        this.activeChange();
+        console.log('ue mi hanno montato');
     }
 }).mount('#app')
