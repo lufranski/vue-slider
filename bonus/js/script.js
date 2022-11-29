@@ -64,6 +64,8 @@ createApp({
 
             setInterval(this.nextImg, 3000);
 
+            // Salvare un riferimento a setInterval per aggiungere la funzione di stop all'hover
+
         }
     },
     mounted(){
